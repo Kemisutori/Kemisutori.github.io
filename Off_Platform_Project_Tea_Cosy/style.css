@@ -1,0 +1,141 @@
+* {
+    font-family: Helvetica;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+nav {
+    width: 100%;
+    max-height: 3rem;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    margin: 0 0.05rem 0.05rem;
+    padding: 0.5rem;
+    border-bottom: 1px solid seashell;
+    z-index: 999;
+}
+
+nav img {
+    height: auto;
+    justify-content: flex-start;
+    width: 7rem;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-right: 0.5rem;
+}
+
+.navigation a {
+    padding: 0.5rem;
+}
+
+#banner {
+    align-items: center;
+    display: flex;
+    margin: 3rem;
+    max-height: auto;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  #banner img {
+      height: auto;
+      width: 100%;
+  }
+
+  #banner span {
+    box-sizing: border-box;
+    padding: 0.5rem;
+    position: absolute;
+    width: 100%;
+  }
+
+  #tea-month {
+    margin: 3rem;
+    text-align: center;
+  }
+  div.offerings {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+  }
+  div.offer {
+    height: 12.5rem;
+    margin: 2rem;
+    max-width: 18.75rem;
+    width: 100%;
+  }
+  div.offer img {
+    align-self: center;
+    height: 100%;
+    margin: 0.625rem;
+    width: auto;
+  }
+
+  #location {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1xezwai*_ga*MTIwNTE1MjgwNy4xNjQ5NzUxNzc2*_ga_3LRZM6TM9L*MTY1MzA0ODk0MC45Ni4xLjE2NTMwNTI2NjUuNTc.");
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    height: 31.25rem;
+    justify-content: center;
+    margin: 2.5rem;
+    width: auto;
+  }
+  #location h2 {
+    background-color: unset;
+    margin: 0;
+    overflow: hidden;
+    padding: 1rem;
+  }
+  .card-section {
+    background-color: unset;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .loc-card {
+    box-sizing: border-box;
+    margin: 0 1.25rem 2rem;
+    padding: 1rem;
+  }
+  .loc-card h4 {
+    margin-bottom: 1rem;
+  }
+  .loc-card p {
+    line-height: 2rem;
+  }
+
+  footer {
+    box-sizing: border-box;
+    margin: 1rem 1rem 0;
+    max-height: 12.5rem;
+  }
+  footer h2,
+  footer h5,
+  footer p {
+    box-sizing: border-box;
+    padding: 0.75rem;
+  }
+  footer p {
+    text-align: left;
+  }
